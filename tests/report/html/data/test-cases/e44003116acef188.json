@@ -1,0 +1,53 @@
+{
+  "uid" : "e44003116acef188",
+  "name" : "test_login_vehicle[datas2]",
+  "fullName" : "test_login_token_vehicle#test_login_vehicle",
+  "historyId" : "f4aa496329079477012553daa604326e",
+  "time" : {
+    "start" : 1636030568360,
+    "stop" : 1636030568360,
+    "duration" : 0
+  },
+  "description" : "\n\t对参数进行反序列化处理\n\t:param datas:\n\t:return:\n\t",
+  "descriptionHtml" : "<pre><code>对参数进行反序列化处理\n:param datas:\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_login_token_vehicle"
+  }, {
+    "name" : "host",
+    "value" : "PC-20201028ZSEU"
+  }, {
+    "name" : "thread",
+    "value" : "14756-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login_token_vehicle"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datas",
+    "value" : "{'测试用例ID': 'vehicleType_004', '模块': '书籍管理', '接口名称': '编辑书籍', '请求地址': 'v3/api/book/{bookID}', '前置条件': 'login', '请求方法': 'put', '请求参数类型': '', '请求参数': 'vehicleType_004', '期望结果': '', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT{token}\"}', '状态码': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e44003116acef188.json",
+  "parameterValues" : [ "{'测试用例ID': 'vehicleType_004', '模块': '书籍管理', '接口名称': '编辑书籍', '请求地址': 'v3/api/book/{bookID}', '前置条件': 'login', '请求方法': 'put', '请求参数类型': '', '请求参数': 'vehicleType_004', '期望结果': '', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT{token}\"}', '状态码': ''}" ]
+}

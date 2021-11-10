@@ -1,0 +1,267 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-20201028ZSEU",
+    "children" : [ {
+      "name" : "14316-MainThread",
+      "children" : [ {
+        "name" : "test_login_vehicle[datas2]",
+        "uid" : "487a5773a26324d7",
+        "parentUid" : "a8fa8a85d2ba98278b94d2866f6f5f90",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636030632294,
+          "stop" : 1636030632295,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'vehicleType_004', '模块': '书籍管理', '接口名称': '编辑书籍', '请求地址': 'v3/api/book/{bookID}', '前置条件': 'login', '请求方法': 'put', '请求参数类型': '', '请求参数': 'vehicleType_004', '期望结果': '', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT{token}\"}', '状态码': ''}" ]
+      }, {
+        "name" : "test_login_vehicle[datas1]",
+        "uid" : "f9c69f10045c1d0d",
+        "parentUid" : "a8fa8a85d2ba98278b94d2866f6f5f90",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636030632292,
+          "stop" : 1636030632292,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'vehicleType_001', '模块': '车辆类型管理', '接口名称': '获取所有车辆类型信息', '请求地址': 'http://jlrh.tyxxtb.com/comList/index/index', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '{\"userid\":\"336\",\"vechicleName\":\"宇通\"}', '期望结果': 'message:成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT{token}\"}', '状态码': ''}" ]
+      }, {
+        "name" : "test_login_vehicle[datas0]",
+        "uid" : "94f756b77512dbd1",
+        "parentUid" : "a8fa8a85d2ba98278b94d2866f6f5f90",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636030632290,
+          "stop" : 1636030632290,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'login', '模块': '登陆', '接口名称': '登录', '请求地址': 'http://jlrh.tyxxtb.com/login', '前置条件': '', '请求方法': 'post', '请求参数类型': '', '请求参数': '{\"username\":\"admin\",\"password\":\"12345678\"}', '期望结果': '', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT{token}\"}', '状态码': ''}" ]
+      } ],
+      "uid" : "a8fa8a85d2ba98278b94d2866f6f5f90"
+    }, {
+      "name" : "14756-MainThread",
+      "children" : [ {
+        "name" : "test_login_vehicle[datas0]",
+        "uid" : "92bc0c51d01596b5",
+        "parentUid" : "3786b7ce89e96f906b89efeff6136e23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636030568355,
+          "stop" : 1636030568355,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'login', '模块': '登陆', '接口名称': '登录', '请求地址': 'http://jlrh.tyxxtb.com/login', '前置条件': '', '请求方法': 'post', '请求参数类型': '', '请求参数': '{\"username\":\"admin\",\"password\":\"12345678\"}', '期望结果': '', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT{token}\"}', '状态码': ''}" ]
+      }, {
+        "name" : "test_login_vehicle[datas1]",
+        "uid" : "92d1f413a2430b95",
+        "parentUid" : "3786b7ce89e96f906b89efeff6136e23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636030568358,
+          "stop" : 1636030568358,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'vehicleType_001', '模块': '车辆类型管理', '接口名称': '获取所有车辆类型信息', '请求地址': 'http://jlrh.tyxxtb.com/comList/index/index', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '{\"userid\":\"336\",\"vechicleName\":\"宇通\"}', '期望结果': 'message:成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT{token}\"}', '状态码': ''}" ]
+      }, {
+        "name" : "test_login_vehicle[datas2]",
+        "uid" : "e44003116acef188",
+        "parentUid" : "3786b7ce89e96f906b89efeff6136e23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636030568360,
+          "stop" : 1636030568360,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'vehicleType_004', '模块': '书籍管理', '接口名称': '编辑书籍', '请求地址': 'v3/api/book/{bookID}', '前置条件': 'login', '请求方法': 'put', '请求参数类型': '', '请求参数': 'vehicleType_004', '期望结果': '', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT{token}\"}', '状态码': ''}" ]
+      } ],
+      "uid" : "3786b7ce89e96f906b89efeff6136e23"
+    }, {
+      "name" : "20732-MainThread",
+      "children" : [ {
+        "name" : "test_login_vehicle[datas1]",
+        "uid" : "1f029ce298c6d2ac",
+        "parentUid" : "a224888aad466daa5e17d7f6a7a4d387",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636030585865,
+          "stop" : 1636030585865,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'vehicleType_001', '模块': '车辆类型管理', '接口名称': '获取所有车辆类型信息', '请求地址': 'http://jlrh.tyxxtb.com/comList/index/index', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '{\"userid\":\"336\",\"vechicleName\":\"宇通\"}', '期望结果': 'message:成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT{token}\"}', '状态码': ''}" ]
+      }, {
+        "name" : "test_login_vehicle[datas0]",
+        "uid" : "56f62a9153262ed",
+        "parentUid" : "a224888aad466daa5e17d7f6a7a4d387",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636030585816,
+          "stop" : 1636030585816,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'login', '模块': '登陆', '接口名称': '登录', '请求地址': 'http://jlrh.tyxxtb.com/login', '前置条件': '', '请求方法': 'post', '请求参数类型': '', '请求参数': '{\"username\":\"admin\",\"password\":\"12345678\"}', '期望结果': '', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT{token}\"}', '状态码': ''}" ]
+      }, {
+        "name" : "test_login_vehicle[datas2]",
+        "uid" : "82f45c6825c7970b",
+        "parentUid" : "a224888aad466daa5e17d7f6a7a4d387",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636030585867,
+          "stop" : 1636030585868,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'vehicleType_004', '模块': '书籍管理', '接口名称': '编辑书籍', '请求地址': 'v3/api/book/{bookID}', '前置条件': 'login', '请求方法': 'put', '请求参数类型': '', '请求参数': 'vehicleType_004', '期望结果': '', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT{token}\"}', '状态码': ''}" ]
+      } ],
+      "uid" : "a224888aad466daa5e17d7f6a7a4d387"
+    }, {
+      "name" : "18564-MainThread",
+      "children" : [ {
+        "name" : "test_login_vehicle[datas1]",
+        "uid" : "7aa5c63ca6a72d5e",
+        "parentUid" : "4e3ac6fb01b5b00c068f8be942ca3555",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636030524874,
+          "stop" : 1636030524874,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'vehicleType_001', '模块': '车辆类型管理', '接口名称': '获取所有车辆类型信息', '请求地址': 'http://jlrh.tyxxtb.com/comList/index/index', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '{\"userid\":\"336\",\"vechicleName\":\"宇通\"}', '期望结果': 'message:成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT{token}\"}', '状态码': ''}" ]
+      }, {
+        "name" : "test_login_vehicle[datas2]",
+        "uid" : "8892a959e5cb6721",
+        "parentUid" : "4e3ac6fb01b5b00c068f8be942ca3555",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636030524876,
+          "stop" : 1636030524877,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'vehicleType_004', '模块': '书籍管理', '接口名称': '编辑书籍', '请求地址': 'v3/api/book/{bookID}', '前置条件': 'login', '请求方法': 'put', '请求参数类型': '', '请求参数': 'vehicleType_004', '期望结果': '', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT{token}\"}', '状态码': ''}" ]
+      }, {
+        "name" : "test_login_vehicle[datas0]",
+        "uid" : "2dd6736ac2aad14d",
+        "parentUid" : "4e3ac6fb01b5b00c068f8be942ca3555",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636030524872,
+          "stop" : 1636030524872,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'login', '模块': '登陆', '接口名称': '登录', '请求地址': 'http://jlrh.tyxxtb.com/login', '前置条件': '', '请求方法': 'post', '请求参数类型': '', '请求参数': '{\"username\":\"admin\",\"password\":\"12345678\"}', '期望结果': '', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT{token}\"}', '状态码': ''}" ]
+      } ],
+      "uid" : "4e3ac6fb01b5b00c068f8be942ca3555"
+    }, {
+      "name" : "13892-MainThread",
+      "children" : [ {
+        "name" : "test_login_vehicle[datas2]",
+        "uid" : "c53a47bfc6bc1284",
+        "parentUid" : "b60812552ef2d2b4ff7a24e1d7bcbbf5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636030804674,
+          "stop" : 1636030804674,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'vehicleType_004', '模块': '书籍管理', '接口名称': '编辑书籍', '请求地址': 'v3/api/book/{bookID}', '前置条件': 'login', '请求方法': 'put', '请求参数类型': '', '请求参数': 'vehicleType_004', '期望结果': '', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT{token}\"}', '状态码': ''}" ]
+      }, {
+        "name" : "test_login_vehicle[datas1]",
+        "uid" : "be54196d598ae5ae",
+        "parentUid" : "b60812552ef2d2b4ff7a24e1d7bcbbf5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636030804672,
+          "stop" : 1636030804672,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'vehicleType_001', '模块': '车辆类型管理', '接口名称': '获取所有车辆类型信息', '请求地址': 'http://jlrh.tyxxtb.com/comList/index/index', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '{\"userid\":\"336\",\"vechicleName\":\"宇通\"}', '期望结果': 'message:成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT{token}\"}', '状态码': ''}" ]
+      }, {
+        "name" : "test_login_vehicle[datas0]",
+        "uid" : "e20df88e26fb9ffa",
+        "parentUid" : "b60812552ef2d2b4ff7a24e1d7bcbbf5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636030804669,
+          "stop" : 1636030804670,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'login', '模块': '登陆', '接口名称': '登录', '请求地址': 'http://jlrh.tyxxtb.com/login', '前置条件': '', '请求方法': 'post', '请求参数类型': '', '请求参数': '{\"username\":\"admin\",\"password\":\"12345678\"}', '期望结果': '', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT{token}\"}', '状态码': ''}" ]
+      } ],
+      "uid" : "b60812552ef2d2b4ff7a24e1d7bcbbf5"
+    }, {
+      "name" : "17544-MainThread",
+      "children" : [ {
+        "name" : "test_login_vehicle[datas0]",
+        "uid" : "34ed678eb4245d9a",
+        "parentUid" : "0496aab3b48ee1316b87f8a5f676a254",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636030818691,
+          "stop" : 1636030818692,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'login', '模块': '登陆', '接口名称': '登录', '请求地址': 'http://jlrh.tyxxtb.com/login', '前置条件': '', '请求方法': 'post', '请求参数类型': '', '请求参数': '{\"username\":\"admin\",\"password\":\"12345678\"}', '期望结果': '', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT{token}\"}', '状态码': ''}" ]
+      }, {
+        "name" : "test_login_vehicle[datas2]",
+        "uid" : "ebc52071d3feec88",
+        "parentUid" : "0496aab3b48ee1316b87f8a5f676a254",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636030818696,
+          "stop" : 1636030818696,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'vehicleType_004', '模块': '书籍管理', '接口名称': '编辑书籍', '请求地址': 'v3/api/book/{bookID}', '前置条件': 'login', '请求方法': 'put', '请求参数类型': '', '请求参数': 'vehicleType_004', '期望结果': '', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT{token}\"}', '状态码': ''}" ]
+      }, {
+        "name" : "test_login_vehicle[datas1]",
+        "uid" : "ca5ea70aea30308d",
+        "parentUid" : "0496aab3b48ee1316b87f8a5f676a254",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636030818694,
+          "stop" : 1636030818694,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'vehicleType_001', '模块': '车辆类型管理', '接口名称': '获取所有车辆类型信息', '请求地址': 'http://jlrh.tyxxtb.com/comList/index/index', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '{\"userid\":\"336\",\"vechicleName\":\"宇通\"}', '期望结果': 'message:成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT{token}\"}', '状态码': ''}" ]
+      } ],
+      "uid" : "0496aab3b48ee1316b87f8a5f676a254"
+    } ],
+    "uid" : "3eca63ce87856e6b9ef38c102a4ebc32"
+  } ]
+}

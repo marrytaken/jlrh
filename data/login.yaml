@@ -1,0 +1,5 @@
+#用户登录成功
+url: http://jlrh.tyxxtb.com/user/login/login
+method: post
+data: {"username":"admin","password":"12345678"}
+expect: {"message":"登录成功！"}

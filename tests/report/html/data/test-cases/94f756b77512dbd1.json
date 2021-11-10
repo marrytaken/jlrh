@@ -1,0 +1,53 @@
+{
+  "uid" : "94f756b77512dbd1",
+  "name" : "test_login_vehicle[datas0]",
+  "fullName" : "test_login_token_vehicle#test_login_vehicle",
+  "historyId" : "274ca41847b054b56658922499deddda",
+  "time" : {
+    "start" : 1636030632290,
+    "stop" : 1636030632290,
+    "duration" : 0
+  },
+  "description" : "\n\t对参数进行反序列化处理\n\t:param datas:\n\t:return:\n\t",
+  "descriptionHtml" : "<pre><code>对参数进行反序列化处理\n:param datas:\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_login_token_vehicle"
+  }, {
+    "name" : "host",
+    "value" : "PC-20201028ZSEU"
+  }, {
+    "name" : "thread",
+    "value" : "14316-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login_token_vehicle"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datas",
+    "value" : "{'测试用例ID': 'login', '模块': '登陆', '接口名称': '登录', '请求地址': 'http://jlrh.tyxxtb.com/login', '前置条件': '', '请求方法': 'post', '请求参数类型': '', '请求参数': '{\"username\":\"admin\",\"password\":\"12345678\"}', '期望结果': '', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT{token}\"}', '状态码': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "94f756b77512dbd1.json",
+  "parameterValues" : [ "{'测试用例ID': 'login', '模块': '登陆', '接口名称': '登录', '请求地址': 'http://jlrh.tyxxtb.com/login', '前置条件': '', '请求方法': 'post', '请求参数类型': '', '请求参数': '{\"username\":\"admin\",\"password\":\"12345678\"}', '期望结果': '', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT{token}\"}', '状态码': ''}" ]
+}
